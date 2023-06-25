@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <!-- IonicIcons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Script -->
+    <title>Crypto Landing Page</title>
+</head>
+<body>
+    <!-- Seccion Inicio -->
+    <section class="inicio">
+        <header>
+            <a href="#" class="logo">Crypto</a>
+            <div class="menuToggle" onclick="toggleMenu()"></div>
+            <ul class="nav">
+                <li><a href="#" onclick="toggleMenu()">Inicio</a></li>
+                <li><a href="#mercados" onclick="toggleMenu()">Mercados</a></li>
+                <li><a href="#trading" onclick="toggleMenu()">Trading</a></li>
+                <li><a href="#soporte" onclick="toggleMenu()">Soporte</a></li>
+            </ul>
+        </header>
+
+        <div class="contenido">
+            <div class="titulo">
+                <h2> Haz trading con <span>Crypto</span> </h2>
+                <p>y disfruta los beneficios que la blockchain puede ofrecerte</p>
+                <a href="#"><ion-icon name="caret-forward"></ion-icon>Ver Más</a>
+            </div>
+            <div class="imgBox">
+                <img src="bitcoin.png" alt="">
+                <img src="ethereum.png" alt="">
+                <img src="litecoin.png" alt="">
+            </div>
+        </div>
+
+        <div class="background">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+    <!-- Fin Seccion Inicio -->
+
+    <!-- Seccion Mercados -->
+    <section class="mercados" id="mercados">
+        <div class="titulo">
+            <h2>Top <span>Criptomonedas</span></h2>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <ion-icon name="stats-chart"></ion-icon>
+                <h3>Bitcoin</h3>
+                <p>USD 21.745,34</p>
+                <span>(+0.74%)</span>
+            </div>
+            <div class="card">
+                <ion-icon name="stats-chart"></ion-icon>
+                <h3>BNB</h3>
+                <p>USD 301,03</p>
+                <span>(+0.53%)</span>
+            </div>
+            <div class="card">
+                <ion-icon name="stats-chart"></ion-icon>
+                <h3>Ripple</h3>
+                <p>USD 0,3888</p>
+                <span>(+0.32%)</span>
+            </div>
+            <div class="card">
+                <ion-icon name="stats-chart"></ion-icon>
+                <h3>Ethereum</h3>
+                <p>USD 1.575,24</p>
+                <span>(-0.01%)</span>
+            </div>
+        </div>
+    </section>
+    <!-- Fin Seccion Mercados -->
+
+    <!-- Seccion Trading -->
+    <section class="trading" id="trading">
+        <div class="contenido">
+            <img src="bars.png" alt="">
+            <div class="texto">
+                <div class="titulo">
+                    <h2>Plataforma de <span>Crypto Trading</span></h2>
+                    <p><span>Haz trading</span> de forma rápida, segura y confiable desde cualquier 
+                    lugar. Te ofrecemos <span>más de 300 Criptomonedas</span> con las que puedes operar.
+                    </p>
+                    <a href="#"><ion-icon name="caret-forward"></ion-icon>Ir a CryptoTrading</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin Seccion Trading -->
+
+    <!-- Seccion Soporte -->
+    <section class="soporte" id="soporte">
+        <div class="titulo">
+            <h2>Nuestro equipo esta disponible <br> <span>24/7 para ayudarte</span></h2>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="texto">
+                    <h3>Preguntas frecuentes</h3>
+                    <p>Consulta las preguntas frecuentes para obtener informacion detallada acerca de una caracteristica en especifico</p>
+                    <ion-icon name="caret-forward"></ion-icon>
+                    <a href="">Click aquí</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="texto">
+                    <h3>Chat en linea</h3>
+                    <p>Resuelve tus dudas en linea con nuestra plataforma de chat, atendida por nuestros excelentes agentes de atención al cliente</p>
+                    <ion-icon name="caret-forward"></ion-icon>
+                    <a href="">Click aquí</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="texto">
+                    <h3>Blog Crypto</h3>
+                    <p>Visita nuestro blog y mantente al día del mundo de las criptomonedas</p>
+                    <ion-icon name="caret-forward"></ion-icon>
+                    <a href="">Click aquí</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin Seccion Soporte -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="col">
+            <div class="enlaces">
+                <div class="titulo">
+                    <h4>Nosotros</h4>
+                </div>
+                <ul>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Comunidad</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="enlaces">
+                <div class="titulo">
+                    <h4>Productos</h4>
+                </div>
+                <ul>
+                    <li><a href="#">Exchange</a></li>
+                    <li><a href="#">Trading</a></li>
+                    <li><a href="#">Crypto Card</a></li>
+                    <li><a href="#">Crypto Wallet</a></li>
+                </ul>
+            </div>
+            <div class="enlaces">
+                <div class="titulo">
+                    <h4>información</h4>
+                </div>
+                <ul>
+                    <li><a href="#">Centro de Ayuda</a></li>
+                    <li><a href="#">Danos tu opinión</a></li>
+                    <li><a href="#">Comisiones</a></li>
+                    <li><a href="#">Reglas de Trading</a></li>
+                </ul>
+            </div>
+            <div class="redesSociales">
+                <a href="#" class="logo">Crypto</a>
+                <ul>
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Saúl Gutiérrez - Todos los derechos reservados</p>
+        </div>
+
+        <div class="background">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </footer>
+    <!-- Fin Footer -->
+</body>
+<script src="index.js"></script>
+</html>
