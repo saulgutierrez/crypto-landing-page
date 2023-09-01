@@ -680,14 +680,45 @@ footer .background::before {
     .inicio .contenido .imgBox img:nth-child(1),
     .inicio .contenido .imgBox img:nth-child(2),
     .inicio .contenido .imgBox img:nth-child(3) {
-        width: 130px;
-        height: 130px;
-        transform: translateY(0px);
+        width: 100px;
+        height: 100px;
+        transform: translateY(30px);
+    }
+
+    .mercados .titulo {
+        color: #94d3f9;
+        font-size: 1.6em;
+        text-align: left;
+        margin-bottom: 60px;
     }
 
     .trading .contenido {
         flex-direction: column;
         text-align: center;
+    }
+
+    .trading .contenido .texto {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .trading .contenido .texto .titulo {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .trading .contenido .texto .titulo h2 {
+        font-size: 0.9em;
+        width: 100%;
+        max-width: 400px;
+        font-size: 2.8em;
+    }
+
+    .trading .contenido .texto .titulo p {
+        text-align: center;
+        font-size: 1.9em;
+        width: 100%;
+        max-width: 400px;
     }
 
     .soporte .titulo {
