@@ -10,3 +10,5 @@ Technologies used:
 <li> Ionic Icons </li>
 <li> Google Fonts </li>
 <li> Animated CSS Background </li>
+
+![image](https://github.com/saulgutierrez/crypto-landing-page/assets/62368834/8d3e5e68-857b-44ae-8e3d-622c2eed2922)
